@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-07T11:51:57.486Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="Gi-Ep1gSd-kAvd7s5lrc" version="13.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-07T11:54:38.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="ZdlrY7a_NqEr_jw5jZjq" version="13.0.8" type="github">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="1422" dy="1845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -254,8 +254,15 @@
         <mxCell id="Bgr_48gp0_9wdKEWGUdH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=classic;endFill=1;strokeColor=#000000;fontColor=#B3B3B3;" edge="1" parent="1c1d494c118603dd-1" source="Bgr_48gp0_9wdKEWGUdH-17" target="Bgr_48gp0_9wdKEWGUdH-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Bgr_48gp0_9wdKEWGUdH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeColor=#000000;fontColor=#B3B3B3;" edge="1" parent="1c1d494c118603dd-1" source="Bgr_48gp0_9wdKEWGUdH-23" target="Bgr_48gp0_9wdKEWGUdH-20">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Bgr_48gp0_9wdKEWGUdH-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeColor=#000000;fontColor=#B3B3B3;" edge="1" parent="1c1d494c118603dd-1" source="Bgr_48gp0_9wdKEWGUdH-23" target="Bgr_48gp0_9wdKEWGUdH-20">
+          <mxGeometry x="-0.03" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bgr_48gp0_9wdKEWGUdH-27" value="&lt;font color=&quot;#000000&quot;&gt;推送&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#B3B3B3;" vertex="1" connectable="0" parent="Bgr_48gp0_9wdKEWGUdH-25">
+          <mxGeometry x="-0.6131" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
