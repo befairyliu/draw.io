@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-05T08:37:25.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="9d4KIJY4xMPC5-jdv5MI" version="13.1.14" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-05T08:42:55.390Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="YcH1JWEgcu71iuObT8qs" version="13.1.14" type="github">
   <diagram id="vGk0o2nWuRs0icXs-NNO" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -132,6 +132,9 @@
         </mxCell>
         <mxCell id="TJG24RdXMXhbs9ESTVYp-55" value="新增模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="680" y="670" width="86" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="TJG24RdXMXhbs9ESTVYp-58" value="已有模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="680" y="570" width="86" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
