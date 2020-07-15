@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-14T13:35:59.646Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="5IJO8vf_kXHqX3CVxGOx" version="13.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-15T03:55:23.877Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="hbT-wpDlvCFJ31m-UKKW" version="13.4.2" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1461" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1461" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -59,9 +59,6 @@
         </mxCell>
         <mxCell id="CxLfZUfCz9YsHEarrwwl-106" value="获取FA下载地址" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="CxLfZUfCz9YsHEarrwwl-53">
           <mxGeometry x="80" y="752" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="CxLfZUfCz9YsHEarrwwl-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CxLfZUfCz9YsHEarrwwl-53" source="CxLfZUfCz9YsHEarrwwl-111" target="CxLfZUfCz9YsHEarrwwl-114">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CxLfZUfCz9YsHEarrwwl-111" value="下载FA" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="CxLfZUfCz9YsHEarrwwl-53">
           <mxGeometry x="80" y="820" width="100" height="30" as="geometry" />
@@ -224,6 +221,19 @@
         </mxCell>
         <mxCell id="CxLfZUfCz9YsHEarrwwl-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="CxLfZUfCz9YsHEarrwwl-1" source="CxLfZUfCz9YsHEarrwwl-111" target="CxLfZUfCz9YsHEarrwwl-110">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxLfZUfCz9YsHEarrwwl-126" value="请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CxLfZUfCz9YsHEarrwwl-112">
+          <mxGeometry x="-0.8875" relative="1" as="geometry">
+            <mxPoint x="-13" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CxLfZUfCz9YsHEarrwwl-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="CxLfZUfCz9YsHEarrwwl-1" source="CxLfZUfCz9YsHEarrwwl-110" target="CxLfZUfCz9YsHEarrwwl-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxLfZUfCz9YsHEarrwwl-127" value="返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CxLfZUfCz9YsHEarrwwl-125">
+          <mxGeometry x="-0.8288" y="3" relative="1" as="geometry">
+            <mxPoint x="-11" y="-18" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
