@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-15T07:36:50.242Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="4pOmMaQz-enHvW3R8c80" version="13.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-15T07:37:47.200Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="2AYIIPdeCFnItK5MiEx8" version="13.4.4" type="github">
   <diagram id="4HUHBFu7kQbOkk_mkd8P" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,19 +13,22 @@
         <mxCell id="Qi7K29T_YrV_8NKLMFTD-51" value="获取设备唯一标识符" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="Qi7K29T_YrV_8NKLMFTD-2">
           <mxGeometry x="70" y="360" width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Qi7K29T_YrV_8NKLMFTD-60" value="解析并获得设备唯一标识符" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="Qi7K29T_YrV_8NKLMFTD-2">
+          <mxGeometry x="70" y="445" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qi7K29T_YrV_8NKLMFTD-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Qi7K29T_YrV_8NKLMFTD-2" target="Qi7K29T_YrV_8NKLMFTD-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="475" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qi7K29T_YrV_8NKLMFTD-23" value="结束" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;perimeter=ellipsePerimeter;outline=end;symbol=terminate;rounded=0;shadow=0;comic=0;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="Qi7K29T_YrV_8NKLMFTD-2">
+          <mxGeometry x="100" y="520" width="40" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="Qi7K29T_YrV_8NKLMFTD-5" value="智能家居设备NFC标签" style="swimlane;html=1;startSize=20;" vertex="1" parent="Qi7K29T_YrV_8NKLMFTD-1">
           <mxGeometry x="250" y="20" width="230" height="750" as="geometry" />
         </mxCell>
         <mxCell id="Qi7K29T_YrV_8NKLMFTD-46" value="返回设备标签信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="Qi7K29T_YrV_8NKLMFTD-5">
           <mxGeometry x="74" y="200" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Qi7K29T_YrV_8NKLMFTD-23" value="结束" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;perimeter=ellipsePerimeter;outline=end;symbol=terminate;rounded=0;shadow=0;comic=0;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="Qi7K29T_YrV_8NKLMFTD-5">
-          <mxGeometry x="124" y="735" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Qi7K29T_YrV_8NKLMFTD-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Qi7K29T_YrV_8NKLMFTD-5" target="Qi7K29T_YrV_8NKLMFTD-23">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="144" y="690" as="sourcePoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="Qi7K29T_YrV_8NKLMFTD-29" value="标签运营管理系统" style="swimlane;html=1;startSize=20;" vertex="1" parent="Qi7K29T_YrV_8NKLMFTD-1">
           <mxGeometry x="480" y="20" width="250" height="750" as="geometry" />
@@ -79,6 +82,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qi7K29T_YrV_8NKLMFTD-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Qi7K29T_YrV_8NKLMFTD-1" source="Qi7K29T_YrV_8NKLMFTD-51" target="Qi7K29T_YrV_8NKLMFTD-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qi7K29T_YrV_8NKLMFTD-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="Qi7K29T_YrV_8NKLMFTD-1" source="Qi7K29T_YrV_8NKLMFTD-58" target="Qi7K29T_YrV_8NKLMFTD-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
