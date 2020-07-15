@@ -1,1 +1,231 @@
-<mxfile host="app.diagrams.net" modified="2020-07-15T03:45:27.842Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="BmVed53pqGD116o1gX_D" version="13.4.2" type="github"><diagram id="kNWesDjtiGjWV4DbG4Th" name="Page-1">dZHBDoIwDIafZnfYUPSMiBdPHDwvrLIlg5IxA/r0QjbEBU16aL/+3b91hGXNWBjeySsK0IRGYiTsRCiNE0rJHJF4OpImOwdqo4QXraBUL/Aw8vShBPSB0CJqq7oQVti2UNmAcWNwCGV31KFrx2vYgLLiektvSljp6IGmK7+AquXiHO+PrtPwRexf0ksucPhCLCcsM4jWZc2YgZ6Xt+zFzZ3/dD8XM9DaHwNTsp49FcEPsfwN</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-07-15T03:45:53.410Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="2s2wsi30KsVTAdWxGDz0" version="13.4.2" type="github">
+  <diagram id="kNWesDjtiGjWV4DbG4Th" name="Page-1">
+    <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-1" value="碰一碰自查询下载智能家居FA流程图" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="180" y="100" width="1470" height="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-2" value="手机设备侧" style="swimlane;html=1;startSize=20;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-1">
+          <mxGeometry y="20" width="510" height="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-3" value="OneHop应用" style="swimlane;html=1;startSize=20;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-2">
+          <mxGeometry y="20" width="290" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-3" source="Mp8dSOn7ljcwE-eIvnfx-8" target="Mp8dSOn7ljcwE-eIvnfx-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-5" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-3" source="Mp8dSOn7ljcwE-eIvnfx-7" target="Mp8dSOn7ljcwE-eIvnfx-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.167;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-3" source="Mp8dSOn7ljcwE-eIvnfx-7" target="Mp8dSOn7ljcwE-eIvnfx-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-7" value="本地缓存是否成功读取标签信息？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-3">
+          <mxGeometry x="30" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-8" value="&lt;font color=&quot;#ffffff&quot;&gt;开始&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#000000;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-3">
+          <mxGeometry x="50" y="60" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-3" source="Mp8dSOn7ljcwE-eIvnfx-10" target="Mp8dSOn7ljcwE-eIvnfx-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-10" value="靠近智能家居设备" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-3">
+          <mxGeometry x="20" y="140" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-11" value="读取设备NFC标签信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-3">
+          <mxGeometry x="20" y="210" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-3" source="Mp8dSOn7ljcwE-eIvnfx-13" target="Mp8dSOn7ljcwE-eIvnfx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-13" value="解析设备标签信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-3">
+          <mxGeometry x="20" y="290" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-14" style="edgeStyle=none;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=oval;endFill=0;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;exitX=0.011;exitY=0.233;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.875;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-3" source="Mp8dSOn7ljcwE-eIvnfx-23" target="Mp8dSOn7ljcwE-eIvnfx-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="425" as="sourcePoint" />
+            <mxPoint x="100" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-15" value="请求设备支持的FA应用信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-3">
+          <mxGeometry x="80" y="686" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-3" source="Mp8dSOn7ljcwE-eIvnfx-17" target="Mp8dSOn7ljcwE-eIvnfx-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-17" value="获取FA下载地址" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-3">
+          <mxGeometry x="80" y="752" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-3" source="Mp8dSOn7ljcwE-eIvnfx-19" target="Mp8dSOn7ljcwE-eIvnfx-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-19" value="下载FA" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-3">
+          <mxGeometry x="80" y="820" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-3" source="Mp8dSOn7ljcwE-eIvnfx-21" target="Mp8dSOn7ljcwE-eIvnfx-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-21" value="解包FA" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-3">
+          <mxGeometry x="80" y="880" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-22" value="&lt;span style=&quot;font-family: helvetica;&quot;&gt;拉起智能家居设备FA&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;fontStyle=0" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-3">
+          <mxGeometry x="80" y="950" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-23" value="标签映射缓存" style="shape=note;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;size=20;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-3">
+          <mxGeometry x="120" y="450" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-3" source="Mp8dSOn7ljcwE-eIvnfx-25" target="Mp8dSOn7ljcwE-eIvnfx-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-25" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#000000;fontFamily=Verdana;fontSize=12;align=center;rotation=0;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-3">
+          <mxGeometry x="40" y="640" width="180" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.828;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-3" source="Mp8dSOn7ljcwE-eIvnfx-27" target="Mp8dSOn7ljcwE-eIvnfx-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-27" value="缓存标签映射信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-3">
+          <mxGeometry x="140" y="570" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-28" value="请求标签对应应用信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-3">
+          <mxGeometry x="140" y="395" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-29" style="edgeStyle=none;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=oval;endFill=0;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-3" target="Mp8dSOn7ljcwE-eIvnfx-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="138" y="480" as="sourcePoint" />
+            <mxPoint x="110" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-3" source="Mp8dSOn7ljcwE-eIvnfx-31" target="Mp8dSOn7ljcwE-eIvnfx-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-31" value="解析标签应用信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-3">
+          <mxGeometry x="170" y="504" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-32" value="智能家居设备FA" style="swimlane;html=1;startSize=20;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-2">
+          <mxGeometry x="290" y="20" width="220" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-32" source="Mp8dSOn7ljcwE-eIvnfx-34" target="Mp8dSOn7ljcwE-eIvnfx-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-34" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;智能家居设备FA半模态启动&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;fontStyle=0" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-32">
+          <mxGeometry x="65" y="950" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-35" value="结束" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;perimeter=ellipsePerimeter;outline=end;symbol=terminate;rounded=0;shadow=0;comic=0;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-32">
+          <mxGeometry x="95" y="1010" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-2" source="Mp8dSOn7ljcwE-eIvnfx-22" target="Mp8dSOn7ljcwE-eIvnfx-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-37" value="智能家居设备侧" style="swimlane;html=1;startSize=20;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-1">
+          <mxGeometry x="510" y="20" width="240" height="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-38" value="设备NFC标签" style="swimlane;html=1;startSize=20;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-37">
+          <mxGeometry y="20" width="240" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-39" value="返回设备标签信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-38">
+          <mxGeometry x="80" y="210" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-1" source="Mp8dSOn7ljcwE-eIvnfx-11" target="Mp8dSOn7ljcwE-eIvnfx-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-41" value="读取设备标签信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mp8dSOn7ljcwE-eIvnfx-40">
+          <mxGeometry x="-0.6818" relative="1" as="geometry">
+            <mxPoint x="10" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-1" source="Mp8dSOn7ljcwE-eIvnfx-39" target="Mp8dSOn7ljcwE-eIvnfx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-43" value="返回设备标签信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mp8dSOn7ljcwE-eIvnfx-42">
+          <mxGeometry x="-0.0306" y="2" relative="1" as="geometry">
+            <mxPoint x="74" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-1" source="Mp8dSOn7ljcwE-eIvnfx-28" target="Mp8dSOn7ljcwE-eIvnfx-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-45" value="云端请求标签应用信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mp8dSOn7ljcwE-eIvnfx-44">
+          <mxGeometry x="-0.8145" relative="1" as="geometry">
+            <mxPoint x="29" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-46" value="云端系统" style="swimlane;html=1;startSize=20;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-1">
+          <mxGeometry x="750" y="20" width="720" height="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-47" value="标签运营管理系统" style="swimlane;html=1;startSize=20;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-46">
+          <mxGeometry y="20" width="240" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-48" value="查找标签对应应用信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-47">
+          <mxGeometry x="80" y="504" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-47" source="Mp8dSOn7ljcwE-eIvnfx-50" target="Mp8dSOn7ljcwE-eIvnfx-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-50" value="解析标签信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-47">
+          <mxGeometry x="80" y="395" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-51" style="edgeStyle=none;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=oval;endFill=0;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;exitX=0;exitY=0;exitDx=37.5;exitDy=0;exitPerimeter=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-47" source="Mp8dSOn7ljcwE-eIvnfx-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="612" as="sourcePoint" />
+            <mxPoint x="129.5" y="534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-52" value="标签应用信息" style="shape=note;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;size=20;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-47">
+          <mxGeometry x="90" y="574" width="95" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-53" value="HAG服务管理系统" style="swimlane;html=1;startSize=20;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-46">
+          <mxGeometry x="240" y="20" width="240" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-54" value="获取设备支持的FA应用下载地址" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-53">
+          <mxGeometry x="70" y="686" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-55" style="edgeStyle=none;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=oval;endFill=0;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;exitX=0;exitY=0;exitDx=37.5;exitDy=0;exitPerimeter=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-53" source="Mp8dSOn7ljcwE-eIvnfx-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-770" y="654" as="sourcePoint" />
+            <mxPoint x="159.5" y="716" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-56" value="FA下载地址" style="shape=note;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;size=20;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-53">
+          <mxGeometry x="140" y="756" width="95" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-57" value="应用市场" style="swimlane;html=1;startSize=20;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-46">
+          <mxGeometry x="480" y="20" width="240" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-58" value="返回设备FA包" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-57">
+          <mxGeometry x="70" y="820" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-1" source="Mp8dSOn7ljcwE-eIvnfx-48" target="Mp8dSOn7ljcwE-eIvnfx-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-60" value="返回标签应用信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mp8dSOn7ljcwE-eIvnfx-59">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="144" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-1" source="Mp8dSOn7ljcwE-eIvnfx-15" target="Mp8dSOn7ljcwE-eIvnfx-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-62" value="请求设备支持的FA下载地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mp8dSOn7ljcwE-eIvnfx-61">
+          <mxGeometry x="-0.8114" y="2" relative="1" as="geometry">
+            <mxPoint x="-3" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-1" source="Mp8dSOn7ljcwE-eIvnfx-54" target="Mp8dSOn7ljcwE-eIvnfx-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-64" value="返回设备支持的FA下载地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mp8dSOn7ljcwE-eIvnfx-63">
+          <mxGeometry x="-0.5551" relative="1" as="geometry">
+            <mxPoint x="61" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-1" source="Mp8dSOn7ljcwE-eIvnfx-19" target="Mp8dSOn7ljcwE-eIvnfx-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
