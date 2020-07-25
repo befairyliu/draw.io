@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-25T09:06:28.984Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="mDRxXeNEqglqZSUjBHbp" version="13.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-25T09:07:07.058Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="zKyssBPaXOtL5Fy8vDl5" version="13.4.4" type="github">
   <diagram id="kNWesDjtiGjWV4DbG4Th" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,9 +61,6 @@
         <mxCell id="qw8NOjxHAqGaBPZK0gtg-17" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-3" source="qw8NOjxHAqGaBPZK0gtg-13" target="Mp8dSOn7ljcwE-eIvnfx-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-21" value="解包并安装" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="Mp8dSOn7ljcwE-eIvnfx-3" vertex="1">
-          <mxGeometry x="80" y="1300" width="100" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="qw8NOjxHAqGaBPZK0gtg-13" value="是否是下载地址URL？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-3">
           <mxGeometry x="90" y="900" width="80" height="80" as="geometry" />
         </mxCell>
@@ -85,14 +82,17 @@
         <mxCell id="Mp8dSOn7ljcwE-eIvnfx-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.828;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="Mp8dSOn7ljcwE-eIvnfx-3" source="Mp8dSOn7ljcwE-eIvnfx-27" target="Mp8dSOn7ljcwE-eIvnfx-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-23" value="标签映射缓存" style="shape=note;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;size=20;" parent="Mp8dSOn7ljcwE-eIvnfx-3" vertex="1">
+          <mxGeometry x="120" y="620" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-21" value="解包并安装" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="Mp8dSOn7ljcwE-eIvnfx-3" vertex="1">
+          <mxGeometry x="100" y="1220" width="100" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="Mp8dSOn7ljcwE-eIvnfx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="Mp8dSOn7ljcwE-eIvnfx-3" source="Mp8dSOn7ljcwE-eIvnfx-21" target="Mp8dSOn7ljcwE-eIvnfx-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-22" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;拉起智能家居设备应用&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;fontStyle=0" parent="Mp8dSOn7ljcwE-eIvnfx-3" vertex="1">
-          <mxGeometry x="80" y="1384" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-23" value="标签映射缓存" style="shape=note;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;size=20;" parent="Mp8dSOn7ljcwE-eIvnfx-3" vertex="1">
-          <mxGeometry x="120" y="620" width="95" height="30" as="geometry" />
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-22" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;拉起智能家居IOT设备应用&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;fontStyle=0" parent="Mp8dSOn7ljcwE-eIvnfx-3" vertex="1">
+          <mxGeometry x="100" y="1304" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Mp8dSOn7ljcwE-eIvnfx-27" value="缓存本手机标签映射应用信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="Mp8dSOn7ljcwE-eIvnfx-3" vertex="1">
           <mxGeometry x="140" y="770" width="100" height="30" as="geometry" />
@@ -104,6 +104,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Mp8dSOn7ljcwE-eIvnfx-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="Mp8dSOn7ljcwE-eIvnfx-3" source="Mp8dSOn7ljcwE-eIvnfx-31" target="Mp8dSOn7ljcwE-eIvnfx-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qw8NOjxHAqGaBPZK0gtg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-3" source="qw8NOjxHAqGaBPZK0gtg-18" target="Mp8dSOn7ljcwE-eIvnfx-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qw8NOjxHAqGaBPZK0gtg-18" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#000000;fontFamily=Verdana;fontSize=12;align=center;rotation=0;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-3">
@@ -133,11 +136,11 @@
         <mxCell id="Mp8dSOn7ljcwE-eIvnfx-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="Mp8dSOn7ljcwE-eIvnfx-32" source="Mp8dSOn7ljcwE-eIvnfx-34" target="Mp8dSOn7ljcwE-eIvnfx-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-34" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;智能家居设备应用启动&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;fontStyle=0" parent="Mp8dSOn7ljcwE-eIvnfx-32" vertex="1">
-          <mxGeometry x="65" y="1384" width="100" height="30" as="geometry" />
+        <mxCell id="Mp8dSOn7ljcwE-eIvnfx-34" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;智能家居IOT设备应用启动&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;fontStyle=0" parent="Mp8dSOn7ljcwE-eIvnfx-32" vertex="1">
+          <mxGeometry x="85" y="1304" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Mp8dSOn7ljcwE-eIvnfx-35" value="结束" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;perimeter=ellipsePerimeter;outline=end;symbol=terminate;rounded=0;shadow=0;comic=0;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="Mp8dSOn7ljcwE-eIvnfx-32" vertex="1">
-          <mxGeometry x="95" y="1444" width="40" height="40" as="geometry" />
+          <mxGeometry x="115" y="1364" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Mp8dSOn7ljcwE-eIvnfx-37" value="智能家居设备侧" style="swimlane;html=1;startSize=20;" parent="Mp8dSOn7ljcwE-eIvnfx-1" vertex="1">
           <mxGeometry x="510" y="20" width="240" height="1540" as="geometry" />
