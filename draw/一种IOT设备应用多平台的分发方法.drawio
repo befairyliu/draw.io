@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-07-25T09:07:07.058Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="zKyssBPaXOtL5Fy8vDl5" version="13.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-25T09:07:48.361Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="IC4J9yorJcmB3altWcEC" version="13.4.4" type="github">
   <diagram id="kNWesDjtiGjWV4DbG4Th" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Mp8dSOn7ljcwE-eIvnfx-1" value="IOT设备应用多平台分发方法流程图" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="180" y="100" width="1470" height="1560" as="geometry" />
+          <mxGeometry x="180" y="100" width="1470" height="1470" as="geometry" />
         </mxCell>
         <mxCell id="Mp8dSOn7ljcwE-eIvnfx-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Mp8dSOn7ljcwE-eIvnfx-1" source="Mp8dSOn7ljcwE-eIvnfx-19" target="Mp8dSOn7ljcwE-eIvnfx-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -24,10 +24,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Mp8dSOn7ljcwE-eIvnfx-2" value="手机设备侧" style="swimlane;html=1;startSize=20;" parent="Mp8dSOn7ljcwE-eIvnfx-1" vertex="1">
-          <mxGeometry y="20" width="510" height="1540" as="geometry" />
+          <mxGeometry y="20" width="510" height="1450" as="geometry" />
         </mxCell>
         <mxCell id="Mp8dSOn7ljcwE-eIvnfx-3" value="碰一碰应用" style="swimlane;html=1;startSize=20;" parent="Mp8dSOn7ljcwE-eIvnfx-2" vertex="1">
-          <mxGeometry y="20" width="290" height="1520" as="geometry" />
+          <mxGeometry y="20" width="290" height="1430" as="geometry" />
         </mxCell>
         <mxCell id="Mp8dSOn7ljcwE-eIvnfx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="Mp8dSOn7ljcwE-eIvnfx-3" source="Mp8dSOn7ljcwE-eIvnfx-8" target="Mp8dSOn7ljcwE-eIvnfx-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -131,7 +131,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Mp8dSOn7ljcwE-eIvnfx-32" value="智能家居IOT设备管理应用" style="swimlane;html=1;startSize=20;" parent="Mp8dSOn7ljcwE-eIvnfx-2" vertex="1">
-          <mxGeometry x="290" y="20" width="220" height="1520" as="geometry" />
+          <mxGeometry x="290" y="20" width="220" height="1430" as="geometry" />
         </mxCell>
         <mxCell id="Mp8dSOn7ljcwE-eIvnfx-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="Mp8dSOn7ljcwE-eIvnfx-32" source="Mp8dSOn7ljcwE-eIvnfx-34" target="Mp8dSOn7ljcwE-eIvnfx-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -143,10 +143,10 @@
           <mxGeometry x="115" y="1364" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Mp8dSOn7ljcwE-eIvnfx-37" value="智能家居设备侧" style="swimlane;html=1;startSize=20;" parent="Mp8dSOn7ljcwE-eIvnfx-1" vertex="1">
-          <mxGeometry x="510" y="20" width="240" height="1540" as="geometry" />
+          <mxGeometry x="510" y="20" width="240" height="1450" as="geometry" />
         </mxCell>
         <mxCell id="Mp8dSOn7ljcwE-eIvnfx-38" value="IOT设备NFC标签" style="swimlane;html=1;startSize=20;" parent="Mp8dSOn7ljcwE-eIvnfx-37" vertex="1">
-          <mxGeometry y="20" width="240" height="1520" as="geometry" />
+          <mxGeometry y="20" width="240" height="1430" as="geometry" />
         </mxCell>
         <mxCell id="Mp8dSOn7ljcwE-eIvnfx-39" value="返回设备标签信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="Mp8dSOn7ljcwE-eIvnfx-38" vertex="1">
           <mxGeometry x="80" y="210" width="100" height="30" as="geometry" />
@@ -178,10 +178,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Mp8dSOn7ljcwE-eIvnfx-46" value="云端系统" style="swimlane;html=1;startSize=20;" parent="Mp8dSOn7ljcwE-eIvnfx-1" vertex="1">
-          <mxGeometry x="750" y="20" width="720" height="1540" as="geometry" />
+          <mxGeometry x="750" y="20" width="720" height="1450" as="geometry" />
         </mxCell>
         <mxCell id="Mp8dSOn7ljcwE-eIvnfx-47" value="NFC标签运营管理系统（IOT设备商）" style="swimlane;html=1;startSize=20;" parent="Mp8dSOn7ljcwE-eIvnfx-46" vertex="1">
-          <mxGeometry y="20" width="240" height="1520" as="geometry" />
+          <mxGeometry y="20" width="240" height="1430" as="geometry" />
         </mxCell>
         <mxCell id="qw8NOjxHAqGaBPZK0gtg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Mp8dSOn7ljcwE-eIvnfx-47" source="qw8NOjxHAqGaBPZK0gtg-6" target="qw8NOjxHAqGaBPZK0gtg-7">
           <mxGeometry relative="1" as="geometry" />
@@ -214,13 +214,13 @@
           <mxGeometry x="80" y="620" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Mp8dSOn7ljcwE-eIvnfx-57" value="应用市场（手机设备商）" style="swimlane;html=1;startSize=20;" parent="Mp8dSOn7ljcwE-eIvnfx-46" vertex="1">
-          <mxGeometry x="240" y="20" width="240" height="1520" as="geometry" />
+          <mxGeometry x="240" y="20" width="240" height="1430" as="geometry" />
         </mxCell>
         <mxCell id="Mp8dSOn7ljcwE-eIvnfx-58" value="返回IOT设备应用包数据" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="Mp8dSOn7ljcwE-eIvnfx-57" vertex="1">
           <mxGeometry x="80" y="1020" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qw8NOjxHAqGaBPZK0gtg-11" value="智能家居IOT设备商官网CDN" style="swimlane;html=1;startSize=20;" vertex="1" parent="Mp8dSOn7ljcwE-eIvnfx-46">
-          <mxGeometry x="480" y="20" width="240" height="1520" as="geometry" />
+          <mxGeometry x="480" y="20" width="240" height="1430" as="geometry" />
         </mxCell>
         <mxCell id="qw8NOjxHAqGaBPZK0gtg-12" value="返回IOT设备应用包数据" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="qw8NOjxHAqGaBPZK0gtg-11">
           <mxGeometry x="80" y="925" width="100" height="30" as="geometry" />
