@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-07-25T09:07:48.361Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="IC4J9yorJcmB3altWcEC" version="13.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-25T09:08:20.151Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="FZxglwrvzrDe5MxUpX57" version="13.4.4" type="github">
   <diagram id="kNWesDjtiGjWV4DbG4Th" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Mp8dSOn7ljcwE-eIvnfx-1" value="IOT设备应用多平台分发方法流程图" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="180" y="100" width="1470" height="1470" as="geometry" />
+          <mxGeometry x="50" y="90" width="1470" height="1470" as="geometry" />
         </mxCell>
         <mxCell id="Mp8dSOn7ljcwE-eIvnfx-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Mp8dSOn7ljcwE-eIvnfx-1" source="Mp8dSOn7ljcwE-eIvnfx-19" target="Mp8dSOn7ljcwE-eIvnfx-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
