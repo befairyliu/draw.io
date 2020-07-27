@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2020-07-27T03:20:48.630Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="YDlcNumqQGIsD2kvwl5p" version="13.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-27T06:26:43.761Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="1ZiuXFOz33uycviOGLqf" version="13.5.3" type="github">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="2272" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="1c1d494c118603dd-1" value="分布式多设备远程合照流程图" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-30" y="20" width="1090" height="930" as="geometry" />
+          <mxGeometry x="-30" y="20" width="1380" height="1190" as="geometry" />
         </mxCell>
         <mxCell id="1c1d494c118603dd-2" value="分布式设备A&lt;br&gt;（主用户A APP）" style="swimlane;html=1;startSize=40;" parent="1c1d494c118603dd-1" vertex="1">
-          <mxGeometry y="20" width="340" height="910" as="geometry" />
+          <mxGeometry y="20" width="340" height="1170" as="geometry" />
         </mxCell>
         <mxCell id="RcqD7VYJ0ZPKt785OFSW-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1c1d494c118603dd-2" source="RcqD7VYJ0ZPKt785OFSW-34" target="RcqD7VYJ0ZPKt785OFSW-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RcqD7VYJ0ZPKt785OFSW-34" value="打开合照APP" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1c1d494c118603dd-2">
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-34" value="登录合照APP" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1c1d494c118603dd-2">
           <mxGeometry x="40" y="150" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RcqD7VYJ0ZPKt785OFSW-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1c1d494c118603dd-2" source="60571a20871a0731-4" target="RcqD7VYJ0ZPKt785OFSW-34">
@@ -22,11 +22,38 @@
         <mxCell id="60571a20871a0731-4" value="&lt;font color=&quot;#ffffff&quot;&gt;开始&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#000000;fontFamily=Verdana;fontSize=12;align=center;" parent="1c1d494c118603dd-2" vertex="1">
           <mxGeometry x="70" y="80" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RcqD7VYJ0ZPKt785OFSW-37" value="邀请合照成员" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1c1d494c118603dd-2">
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-37" value="请求云端创建合照模型" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1c1d494c118603dd-2">
           <mxGeometry x="40" y="220" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RcqD7VYJ0ZPKt785OFSW-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1c1d494c118603dd-2" source="RcqD7VYJ0ZPKt785OFSW-35" target="RcqD7VYJ0ZPKt785OFSW-36">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-51" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1c1d494c118603dd-2" source="RcqD7VYJ0ZPKt785OFSW-44" target="RcqD7VYJ0ZPKt785OFSW-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-52" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1c1d494c118603dd-2" source="RcqD7VYJ0ZPKt785OFSW-44" target="RcqD7VYJ0ZPKt785OFSW-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-44" value="合照模型创建是否成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1c1d494c118603dd-2">
+          <mxGeometry x="50" y="376" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1c1d494c118603dd-2" source="RcqD7VYJ0ZPKt785OFSW-42" target="RcqD7VYJ0ZPKt785OFSW-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-42" value="邀请合照成员" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1c1d494c118603dd-2">
+          <mxGeometry x="40" y="510" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-56" value="邀请用户B" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1c1d494c118603dd-2">
+          <mxGeometry x="40" y="640" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-53" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#000000;fontFamily=Verdana;fontSize=12;align=center;rotation=0;" vertex="1" parent="1c1d494c118603dd-2">
+          <mxGeometry x="16.5" y="590" width="253.5" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-50" value="提示用户模型创建失败" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1c1d494c118603dd-2">
+          <mxGeometry x="190" y="401" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-55" value="要求用户C" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1c1d494c118603dd-2">
+          <mxGeometry x="170" y="640" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RcqD7VYJ0ZPKt785OFSW-35" value="选择合照模式" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1c1d494c118603dd-2">
           <mxGeometry x="200" y="150" width="100" height="30" as="geometry" />
@@ -38,25 +65,46 @@
           <mxGeometry x="200" y="220" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1c1d494c118603dd-3" value="分布式设备B&lt;br&gt;（合拍用户B APP）" style="swimlane;html=1;startSize=40;" parent="1c1d494c118603dd-1" vertex="1">
-          <mxGeometry x="340" y="20" width="250" height="910" as="geometry" />
+          <mxGeometry x="340" y="20" width="250" height="1170" as="geometry" />
         </mxCell>
         <mxCell id="1c1d494c118603dd-4" value="分布式设备C&lt;br&gt;（合拍用户C APP）" style="swimlane;html=1;startSize=40;" parent="1c1d494c118603dd-1" vertex="1">
-          <mxGeometry x="590" y="20" width="250" height="910" as="geometry" />
+          <mxGeometry x="590" y="20" width="250" height="1170" as="geometry" />
         </mxCell>
-        <mxCell id="RcqD7VYJ0ZPKt785OFSW-1" value="照片合成分发系统&lt;br&gt;（云端系统）" style="swimlane;html=1;startSize=40;" vertex="1" parent="1c1d494c118603dd-1">
-          <mxGeometry x="840" y="20" width="250" height="910" as="geometry" />
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1c1d494c118603dd-4" source="RcqD7VYJ0ZPKt785OFSW-43" target="RcqD7VYJ0ZPKt785OFSW-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-43" value="创建合照模型" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1c1d494c118603dd-4">
+          <mxGeometry x="80" y="270" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-47" value="返回创建结果" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1c1d494c118603dd-4">
+          <mxGeometry x="80" y="330" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-1" value="云端系统" style="swimlane;html=1;startSize=40;" vertex="1" parent="1c1d494c118603dd-1">
+          <mxGeometry x="840" y="20" width="540" height="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-57" value="社交账户模块" style="swimlane;html=1;startSize=40;" vertex="1" parent="RcqD7VYJ0ZPKt785OFSW-1">
+          <mxGeometry y="40" width="270" height="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-61" value="照片合成分发模块" style="swimlane;html=1;startSize=40;" vertex="1" parent="RcqD7VYJ0ZPKt785OFSW-1">
+          <mxGeometry x="270" y="40" width="270" height="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1c1d494c118603dd-1" source="RcqD7VYJ0ZPKt785OFSW-37" target="RcqD7VYJ0ZPKt785OFSW-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1c1d494c118603dd-1" source="RcqD7VYJ0ZPKt785OFSW-47" target="RcqD7VYJ0ZPKt785OFSW-44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1c1d494c118603dd-26" value="Note" style="shape=note;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;size=20;" parent="1" vertex="1">
-          <mxGeometry x="810" y="1110" width="95" height="45" as="geometry" />
+          <mxGeometry x="825" y="1410" width="95" height="45" as="geometry" />
         </mxCell>
         <mxCell id="RcqD7VYJ0ZPKt785OFSW-30" value="Action" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1">
-          <mxGeometry x="670" y="1110" width="100" height="30" as="geometry" />
+          <mxGeometry x="685" y="1410" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RcqD7VYJ0ZPKt785OFSW-31" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;perimeter=ellipsePerimeter;outline=end;symbol=terminate;rounded=0;shadow=0;comic=0;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="980" y="1115" width="40" height="40" as="geometry" />
+          <mxGeometry x="995" y="1415" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RcqD7VYJ0ZPKt785OFSW-32" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#000000;fontFamily=Verdana;fontSize=12;align=center;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="410" y="1120" width="147" height="10" as="geometry" />
+          <mxGeometry x="425" y="1420" width="147" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
