@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-27T08:56:00.659Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="OY3qpWMVQiSwq1ak4Qqy" version="13.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-27T08:58:40.305Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="i7fWtgmjBIwaON26bK0r" version="13.5.3" type="github">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="1c1d494c118603dd-1" value="分布式多设备远程合照流程图" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="10" y="21" width="1410" height="1720" as="geometry" />
         </mxCell>
-        <mxCell id="RcqD7VYJ0ZPKt785OFSW-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1c1d494c118603dd-1" source="RcqD7VYJ0ZPKt785OFSW-47" target="RcqD7VYJ0ZPKt785OFSW-44">
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=#808080;" edge="1" parent="1c1d494c118603dd-1" source="RcqD7VYJ0ZPKt785OFSW-47" target="RcqD7VYJ0ZPKt785OFSW-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1c1d494c118603dd-2" value="分布式设备A&lt;br&gt;（主用户A APP）" style="swimlane;html=1;startSize=40;" parent="1c1d494c118603dd-1" vertex="1">
