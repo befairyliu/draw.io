@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-07-27T06:55:23.550Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="kcAcYbTstU6T1CyJ7cRE" version="13.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-27T06:55:50.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="OPAy_t-ztLNf3Q2ZghuK" version="13.5.3" type="github">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="2272" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="APu-yJNH_bNmDufyjcgZ-1" value="分布式多设备远程合照流程图" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+        <mxCell id="APu-yJNH_bNmDufyjcgZ-1" value="分布式多设备合拍 - 用户登录" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="-730" y="90" width="610" height="380" as="geometry" />
         </mxCell>
         <mxCell id="APu-yJNH_bNmDufyjcgZ-4" value="分布式设备A&lt;br&gt;（主用户A APP）" style="swimlane;html=1;startSize=40;" parent="APu-yJNH_bNmDufyjcgZ-1" vertex="1">
