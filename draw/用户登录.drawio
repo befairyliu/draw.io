@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-27T06:56:28.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="mnnxcFg-vdRMrVuMau6J" version="13.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-27T06:59:24.070Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="OgpUMc1KhNMqvK9JgpkU" version="13.5.3" type="github">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="2272" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="APu-yJNH_bNmDufyjcgZ-1" value="分布式多设备合拍 - 用户登录" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="-730" y="90" width="610" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="APu-yJNH_bNmDufyjcgZ-4" value="分布式设备A&lt;br&gt;（主用户A APP）" style="swimlane;html=1;startSize=40;" parent="APu-yJNH_bNmDufyjcgZ-1" vertex="1">
+        <mxCell id="APu-yJNH_bNmDufyjcgZ-4" value="分布式设备&lt;br&gt;（用户合拍APP）" style="swimlane;html=1;startSize=40;" parent="APu-yJNH_bNmDufyjcgZ-1" vertex="1">
           <mxGeometry y="20" width="340" height="380" as="geometry" />
         </mxCell>
         <mxCell id="APu-yJNH_bNmDufyjcgZ-5" value="登录合照APP" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="APu-yJNH_bNmDufyjcgZ-4" vertex="1">
