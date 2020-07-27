@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2020-07-27T06:55:50.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="OPAy_t-ztLNf3Q2ZghuK" version="13.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-27T06:56:28.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="mnnxcFg-vdRMrVuMau6J" version="13.5.3" type="github">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="2272" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="APu-yJNH_bNmDufyjcgZ-1" value="分布式多设备合拍 - 用户登录" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-730" y="90" width="610" height="380" as="geometry" />
+          <mxGeometry x="-730" y="90" width="610" height="400" as="geometry" />
         </mxCell>
         <mxCell id="APu-yJNH_bNmDufyjcgZ-4" value="分布式设备A&lt;br&gt;（主用户A APP）" style="swimlane;html=1;startSize=40;" parent="APu-yJNH_bNmDufyjcgZ-1" vertex="1">
-          <mxGeometry y="20" width="340" height="360" as="geometry" />
+          <mxGeometry y="20" width="340" height="380" as="geometry" />
         </mxCell>
         <mxCell id="APu-yJNH_bNmDufyjcgZ-5" value="登录合照APP" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="APu-yJNH_bNmDufyjcgZ-4" vertex="1">
           <mxGeometry x="40" y="150" width="100" height="30" as="geometry" />
@@ -33,7 +33,7 @@
         <mxCell id="APu-yJNH_bNmDufyjcgZ-25" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="APu-yJNH_bNmDufyjcgZ-4" source="APu-yJNH_bNmDufyjcgZ-26" target="APu-yJNH_bNmDufyjcgZ-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="APu-yJNH_bNmDufyjcgZ-59" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;perimeter=ellipsePerimeter;outline=end;symbol=terminate;rounded=0;shadow=0;comic=0;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="APu-yJNH_bNmDufyjcgZ-4" vertex="1">
+        <mxCell id="APu-yJNH_bNmDufyjcgZ-59" value="结束" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;perimeter=ellipsePerimeter;outline=end;symbol=terminate;rounded=0;shadow=0;comic=0;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="APu-yJNH_bNmDufyjcgZ-4" vertex="1">
           <mxGeometry x="70" y="303" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="APu-yJNH_bNmDufyjcgZ-26" value="登陆是否成功？" style="rhombus;whiteSpace=wrap;html=1;" parent="APu-yJNH_bNmDufyjcgZ-4" vertex="1">
@@ -43,10 +43,10 @@
           <mxGeometry x="200" y="308" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="APu-yJNH_bNmDufyjcgZ-38" value="云端系统" style="swimlane;html=1;startSize=40;" parent="APu-yJNH_bNmDufyjcgZ-1" vertex="1">
-          <mxGeometry x="340" y="20" width="270" height="360" as="geometry" />
+          <mxGeometry x="340" y="20" width="270" height="380" as="geometry" />
         </mxCell>
         <mxCell id="APu-yJNH_bNmDufyjcgZ-39" value="社交账户模块" style="swimlane;html=1;startSize=40;" parent="APu-yJNH_bNmDufyjcgZ-38" vertex="1">
-          <mxGeometry y="40" width="270" height="320" as="geometry" />
+          <mxGeometry y="40" width="270" height="340" as="geometry" />
         </mxCell>
         <mxCell id="APu-yJNH_bNmDufyjcgZ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="APu-yJNH_bNmDufyjcgZ-39" source="APu-yJNH_bNmDufyjcgZ-41" target="APu-yJNH_bNmDufyjcgZ-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
