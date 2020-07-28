@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-28T07:17:46.708Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="XFBbYxs1wATvE30OyUxh" version="13.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-28T07:21:38.497Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="5boB_dhIMurds6ZS4zQf" version="13.5.3" type="github">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -385,7 +385,7 @@
         <mxCell id="RcqD7VYJ0ZPKt785OFSW-210" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="RcqD7VYJ0ZPKt785OFSW-61" source="RcqD7VYJ0ZPKt785OFSW-198" target="RcqD7VYJ0ZPKt785OFSW-208">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RcqD7VYJ0ZPKt785OFSW-198" value="合拍人像与合拍模型图层合并处理" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="RcqD7VYJ0ZPKt785OFSW-61">
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-198" value="合照模型人像图层填充人像处理" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="RcqD7VYJ0ZPKt785OFSW-61">
           <mxGeometry x="80" y="880" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RcqD7VYJ0ZPKt785OFSW-171" value="合照模板" style="shape=note;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;size=20;" vertex="1" parent="RcqD7VYJ0ZPKt785OFSW-61">
@@ -400,7 +400,7 @@
         <mxCell id="RcqD7VYJ0ZPKt785OFSW-211" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="RcqD7VYJ0ZPKt785OFSW-61" source="RcqD7VYJ0ZPKt785OFSW-208" target="RcqD7VYJ0ZPKt785OFSW-209">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RcqD7VYJ0ZPKt785OFSW-208" value="合拍背景图层处理" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="RcqD7VYJ0ZPKt785OFSW-61">
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-208" value="合照模型处背景图层处理" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="RcqD7VYJ0ZPKt785OFSW-61">
           <mxGeometry x="80" y="950" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RcqD7VYJ0ZPKt785OFSW-213" value="返回用户APP预览" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="RcqD7VYJ0ZPKt785OFSW-61">
@@ -448,7 +448,7 @@
         <mxCell id="RcqD7VYJ0ZPKt785OFSW-224" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="RcqD7VYJ0ZPKt785OFSW-61" source="RcqD7VYJ0ZPKt785OFSW-209" target="RcqD7VYJ0ZPKt785OFSW-223">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RcqD7VYJ0ZPKt785OFSW-209" value="生成合照预览流" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="RcqD7VYJ0ZPKt785OFSW-61">
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-209" value="合照模型生成&lt;br&gt;合照预览流" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="RcqD7VYJ0ZPKt785OFSW-61">
           <mxGeometry x="250" y="950" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RcqD7VYJ0ZPKt785OFSW-215" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.497;entryY=0.433;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="RcqD7VYJ0ZPKt785OFSW-61" source="RcqD7VYJ0ZPKt785OFSW-213">
