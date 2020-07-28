@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-28T02:41:25.956Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="cJlW7DWrb2-KNSPWiICZ" version="13.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-28T02:49:19.473Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="bEVx5Kdp4WIm-opYnAWM" version="13.5.3" type="github">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -450,22 +450,22 @@
         <mxCell id="RcqD7VYJ0ZPKt785OFSW-276" value="生成合照预览流" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="RcqD7VYJ0ZPKt785OFSW-61">
           <mxGeometry x="250" y="1158.5" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RcqD7VYJ0ZPKt785OFSW-186" value="用户A人像图层流" style="shape=note;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;size=20;fillColor=#F8CECC;" vertex="1" parent="RcqD7VYJ0ZPKt785OFSW-61">
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-186" value="用户A人像图像流" style="shape=note;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;size=20;fillColor=#F8CECC;" vertex="1" parent="RcqD7VYJ0ZPKt785OFSW-61">
           <mxGeometry x="280" y="855" width="95" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RcqD7VYJ0ZPKt785OFSW-185" value="用户A背景图层流" style="shape=note;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;size=20;fillColor=#F8CECC;" vertex="1" parent="RcqD7VYJ0ZPKt785OFSW-61">
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-185" value="用户A背景图像流" style="shape=note;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;size=20;fillColor=#F8CECC;" vertex="1" parent="RcqD7VYJ0ZPKt785OFSW-61">
           <mxGeometry x="280" y="820" width="95" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RcqD7VYJ0ZPKt785OFSW-184" value="用户B人像图层流" style="shape=note;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;size=20;fillColor=#F8CECC;" vertex="1" parent="RcqD7VYJ0ZPKt785OFSW-61">
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-184" value="用户B人像图像流" style="shape=note;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;size=20;fillColor=#F8CECC;" vertex="1" parent="RcqD7VYJ0ZPKt785OFSW-61">
           <mxGeometry x="280" y="769" width="95" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RcqD7VYJ0ZPKt785OFSW-183" value="用户B背景图层流" style="shape=note;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;size=20;" vertex="1" parent="RcqD7VYJ0ZPKt785OFSW-61">
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-183" value="用户B背景图像流" style="shape=note;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;size=20;" vertex="1" parent="RcqD7VYJ0ZPKt785OFSW-61">
           <mxGeometry x="280" y="733" width="95" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RcqD7VYJ0ZPKt785OFSW-126" value="用户C背景图层流" style="shape=note;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;size=20;" vertex="1" parent="RcqD7VYJ0ZPKt785OFSW-61">
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-126" value="用户C背景图像流" style="shape=note;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;size=13;" vertex="1" parent="RcqD7VYJ0ZPKt785OFSW-61">
           <mxGeometry x="280" y="645" width="95" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RcqD7VYJ0ZPKt785OFSW-178" value="用户C人像图层流" style="shape=note;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;size=20;fillColor=#F8CECC;" vertex="1" parent="RcqD7VYJ0ZPKt785OFSW-61">
+        <mxCell id="RcqD7VYJ0ZPKt785OFSW-178" value="用户C人像图像流" style="shape=note;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;size=17;fillColor=#F8CECC;" vertex="1" parent="RcqD7VYJ0ZPKt785OFSW-61">
           <mxGeometry x="280" y="680" width="95" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RcqD7VYJ0ZPKt785OFSW-194" style="edgeStyle=none;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=oval;endFill=0;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="RcqD7VYJ0ZPKt785OFSW-61" source="RcqD7VYJ0ZPKt785OFSW-183" target="RcqD7VYJ0ZPKt785OFSW-176">
