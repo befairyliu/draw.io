@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-12T08:28:27.156Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="-z9ZSqprno-qfrJJ67Qc" version="13.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-12T08:28:48.480Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="3KGB3k7k558CTHqr6UGP" version="13.5.4" type="github">
   <diagram id="pclqiT0lYzakxI-YOr0z" name="Page-1">
     <mxGraphModel dx="2489" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,7 +9,7 @@
             <mxPoint x="93" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fMIKsQbXh_aVyUk7N6kA-2" value="应用下载更新原理" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="fMIKsQbXh_aVyUk7N6kA-2" value="应用下载及更新" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="-140" y="30" width="1940" height="1501" as="geometry" />
         </mxCell>
         <mxCell id="fMIKsQbXh_aVyUk7N6kA-3" value="碰一碰应用" style="swimlane;html=1;startSize=20;" vertex="1" parent="fMIKsQbXh_aVyUk7N6kA-2">
