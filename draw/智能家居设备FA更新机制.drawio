@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-12T06:44:21.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="O_SJCEY1TbbPUZeEVS0f" version="13.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-12T06:51:38.823Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="j4DS4gpoSSHWhEh3E03Y" version="13.5.4" type="github">
   <diagram id="pclqiT0lYzakxI-YOr0z" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,12 +40,6 @@
         <mxCell id="fMIKsQbXh_aVyUk7N6kA-32" value="获FA应用信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="fMIKsQbXh_aVyUk7N6kA-3">
           <mxGeometry x="220" y="345" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fMIKsQbXh_aVyUk7N6kA-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fMIKsQbXh_aVyUk7N6kA-3" source="fMIKsQbXh_aVyUk7N6kA-8" target="fMIKsQbXh_aVyUk7N6kA-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fMIKsQbXh_aVyUk7N6kA-8" value="解析设备标签信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="fMIKsQbXh_aVyUk7N6kA-3">
-          <mxGeometry x="240" y="250" width="100" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="fMIKsQbXh_aVyUk7N6kA-10" value="HiLink应用" style="swimlane;html=1;startSize=20;" vertex="1" parent="fMIKsQbXh_aVyUk7N6kA-2">
           <mxGeometry x="380" y="20" width="290" height="1040" as="geometry" />
         </mxCell>
@@ -67,7 +61,7 @@
         <mxCell id="fMIKsQbXh_aVyUk7N6kA-15" value="解析标签信息，获取设备标识" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="fMIKsQbXh_aVyUk7N6kA-14">
           <mxGeometry x="71" y="345" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fMIKsQbXh_aVyUk7N6kA-16" value="获取FA应用下载地址" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="fMIKsQbXh_aVyUk7N6kA-14">
+        <mxCell id="fMIKsQbXh_aVyUk7N6kA-16" value="获取FA应用信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="fMIKsQbXh_aVyUk7N6kA-14">
           <mxGeometry x="71" y="415" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fMIKsQbXh_aVyUk7N6kA-17" value="返回FA应用下载地址" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="fMIKsQbXh_aVyUk7N6kA-14">
@@ -79,19 +73,16 @@
         <mxCell id="fMIKsQbXh_aVyUk7N6kA-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fMIKsQbXh_aVyUk7N6kA-18" source="fMIKsQbXh_aVyUk7N6kA-19" target="fMIKsQbXh_aVyUk7N6kA-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fMIKsQbXh_aVyUk7N6kA-19" value="根据设备标识获取FA应用下载地址" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="fMIKsQbXh_aVyUk7N6kA-18">
-          <mxGeometry x="75" y="415" width="100" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="fMIKsQbXh_aVyUk7N6kA-20" value="返回FA应用下载地址" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="fMIKsQbXh_aVyUk7N6kA-18">
-          <mxGeometry x="75" y="485" width="100" height="30" as="geometry" />
+          <mxGeometry x="52.5" y="485" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fMIKsQbXh_aVyUk7N6kA-19" value="根据设备标识和OneHop产品包名获取FA应用信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="fMIKsQbXh_aVyUk7N6kA-18">
+          <mxGeometry x="52.5" y="415" width="145" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fMIKsQbXh_aVyUk7N6kA-21" value="应用市场云端系统" style="swimlane;html=1;startSize=20;" vertex="1" parent="fMIKsQbXh_aVyUk7N6kA-2">
           <mxGeometry x="1670" y="20" width="250" height="1040" as="geometry" />
         </mxCell>
         <mxCell id="fMIKsQbXh_aVyUk7N6kA-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="fMIKsQbXh_aVyUk7N6kA-2" source="fMIKsQbXh_aVyUk7N6kA-7" target="fMIKsQbXh_aVyUk7N6kA-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fMIKsQbXh_aVyUk7N6kA-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fMIKsQbXh_aVyUk7N6kA-2" source="fMIKsQbXh_aVyUk7N6kA-13" target="fMIKsQbXh_aVyUk7N6kA-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fMIKsQbXh_aVyUk7N6kA-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="fMIKsQbXh_aVyUk7N6kA-2" source="fMIKsQbXh_aVyUk7N6kA-32" target="fMIKsQbXh_aVyUk7N6kA-15">
@@ -106,6 +97,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fMIKsQbXh_aVyUk7N6kA-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fMIKsQbXh_aVyUk7N6kA-2" source="fMIKsQbXh_aVyUk7N6kA-20" target="fMIKsQbXh_aVyUk7N6kA-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fMIKsQbXh_aVyUk7N6kA-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fMIKsQbXh_aVyUk7N6kA-2" source="fMIKsQbXh_aVyUk7N6kA-13" target="fMIKsQbXh_aVyUk7N6kA-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
